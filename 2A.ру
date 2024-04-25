@@ -1,0 +1,11 @@
+import math
+
+s = 4
+t = 1
+
+a = s - 4*t
+y = s / t
+
+result = (2 * math.cos(a)**3 + 3 * y) / (2 + 3 * y)
+
+print(result)
