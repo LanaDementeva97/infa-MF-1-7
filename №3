@@ -1,0 +1,18 @@
+x = 5
+y = 8
+z = 2
+
+expr1 = (x-y-z) / max(x, y)
+expr2 = (x + y*z) / max(y, z)
+
+if expr1 < expr2:
+    u = expr1
+else:
+    u = expr2
+
+print("x =", x)
+print("y =", y)
+print("z =", z)
+print("Выражение 1:", expr1)
+print("Выражение 2:", expr2)
+print("Минимум:", u)
